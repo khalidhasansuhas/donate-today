@@ -204,7 +204,7 @@ color: rgb(153, 148, 148);
  }
  .final {
 text-align: center;
-margin-bottom: 20vh;
+margin-bottom: 10vh;
  }
  .vol-form{
     align-items: center;
@@ -240,4 +240,32 @@ margin-bottom: 20vh;
  footer>h3{
     color: rgb(218, 198, 22);
     padding-top: 5px;
+ }
+
+ .subscribe {
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgba(245, 227, 230, 0.582);
+ }
+ .subscribe> div{
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+
+ #sub-input-mail{
+    background-color: rgba(199, 202, 204, 0.568);
+    border: none;
+    border-radius: 2px;
+ }
+ #sub-input-button{
+background-color: rgba(247, 62, 62, 0.589);
+border: none;
+border-radius: 2px;
+ }
+ #sub-input-button:hover{
+    cursor: pointer;
  }
