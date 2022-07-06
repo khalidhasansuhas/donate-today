@@ -6,16 +6,20 @@ h1{
     color: white;
     font-weight: bold;
     text-align: center;
-  
-
 }
 
 p{
-    color: white;
-    text-align: center;
-    
+    text-align: center; 
 }
-.background-top{
+#paragrapgh-top{
+    color: white;
+    text-align: center; 
+}
+section{
+    height: 100vh;
+    width: 100%;
+}
+.top{
     background-image: url(./images/donation13.jpg);
     background-repeat: no-repeat;
     height: 80vh;
@@ -24,6 +28,7 @@ p{
     background-size: cover;
     margin: 0px;
     position: relative;
+    margin-bottom: 20vh;
     
     
 }
@@ -47,6 +52,10 @@ p{
     border: 0px;
 
 }
+.donate-button-top:hover{
+cursor: pointer;
+}
+
 .content-top{
     height: 25%;
     width: 60%;
@@ -61,6 +70,73 @@ p{
     position: absolute;
    align-items: center;
    margin-left: 45%;
-   margin-top: 50vh;
-    
+   margin-top: 50vh;   
 }
+
+.second{
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+.content-second{
+    text-align: center;
+    height: 20vh;
+}
+.amount-container-second {
+
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .amount-container-second > div {
+    background-color: #f5f0f0;
+    color: #948d8d;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 75px;
+    border-radius: 5px;
+    
+  }
+  #amount-container-second-special{
+    border: 2px solid tomato;
+    background-color: rgb(245, 207, 207);
+  }
+ 
+  form{
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+   
+  }
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    text-align: center;
+  }
+ .button-second{
+    color: white;
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    border: 0px;
+ }
+
+ .content-third{
+    display: flex;
+    height: 400px;
+    width: 100vh;
+    margin: 0 auto;
+    
+ }
+ .content-third> div{
+    margin: 5px;
+    border: 1px solid black;
+ }
